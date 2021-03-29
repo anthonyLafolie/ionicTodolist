@@ -27,12 +27,13 @@
 }
 
 .bg-img {
-    padding: 1px;
     height: 100%;
     width: 100%;
     background-image: url('../../assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
 }
 
 h1 {
@@ -61,4 +62,9 @@ h5 {
 ion-card{
 	margin-top: 6px;
 	margin-bottom: 0;
+}
+
+.showTask{
+	height: 70vh;
+	overflow-y: auto;
 }
